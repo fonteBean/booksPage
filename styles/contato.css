@@ -46,9 +46,23 @@
     display: flex;
     flex-flow: column;
     gap: 2em;
+    width: 30%;  
   }
   .contato__pesquisa{
     width: 50%;
+  }
+  .contato__pesquisa::placeholder{
+    background-position: 20%;
+  }
+}
 
+@media screen and (min-width:1728px) {
+  .contato{
+    padding: 2em 0;
+    justify-content: center;
+  }
+  .contato__pesquisa{
+    width: 20%;
+    border: 1px solid #0000;
   }
 }

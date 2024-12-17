@@ -15,6 +15,9 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
   gap: .5em;
 }
 
@@ -36,5 +39,14 @@
   }
   .topicos__link{
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .topicos{
+    padding: 5em 0;
+  }
+  .topicos__titulo{
+    font-size: 32px;
   }
 }

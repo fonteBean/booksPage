@@ -83,7 +83,7 @@
   .swiper-button-prev,
   .swiper-button-next{
     display: block;
-    top: 60%;
+    top: 50%;
   }
 
   .swiper{
@@ -94,4 +94,21 @@
     width: 50%;
     margin: 3em auto;
   }
-};
+}
+
+@media screen and (min-width:1728px){
+
+  .card{
+    width: 50%;
+    margin-left: 3em;
+    padding: 2em;
+  }
+  .descricao__titulo{
+    font-size: 32px;
+  }
+  .carrossel__container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20vh 3em 20vh;
+  }
+}
